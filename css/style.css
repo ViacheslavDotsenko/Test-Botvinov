@@ -611,6 +611,10 @@ a:hover {
         justify-content: center;
     }
 
+    .body_page {
+        padding: 5%;
+    }
+
     .cross {
         position: absolute;
         top: 120px; 
