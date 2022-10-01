@@ -111,7 +111,8 @@ a:hover {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1.5em;
-   
+   max-width: 1440px;
+   margin: 0 auto;
     
 }
 
