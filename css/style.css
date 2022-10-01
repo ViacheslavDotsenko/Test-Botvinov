@@ -399,6 +399,7 @@ a:hover {
     width: 100%;
     background-color: rgba(10, 10, 10, 0.5); 
     opacity: 0; 
+    overflow: scroll;
     visibility: hidden; 
     pointer-events: none;
     transition: all ease 500ms; 
@@ -647,7 +648,22 @@ a:hover {
     /*form*/
 
     .form_wrapper {
-        width: 80%;
+        width: 90%;
         padding: 1em;
+    }
+
+    /*modal thanks*/
+
+    .thanks_body {
+        padding: 0.5em;
+        width: 70%;
+    }
+    .button_modal {
+        padding: 0.5em 3em;
+    }
+}
+@media screen and (max-width: 424px) {
+    .body_silver_list, .body_gold_list {
+        width: 146px;
     }
 }
