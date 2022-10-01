@@ -169,12 +169,14 @@ a:hover {
 
 .body_list > h2 {
     margin-bottom: 10px;
+    z-index: 23;
 }
 
 .body_list_content {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1em;
+    z-index: 22;
 }
 
 .body_list_content > p {
@@ -190,6 +192,7 @@ a:hover {
 .check {
    position: relative; 
    padding-left: 40px;
+   z-index: 21;
 }
 
 .check_input {
@@ -285,6 +288,7 @@ a:hover {
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-around;
+    z-index: 0;
 }
 
 .body_silver, .body_gold {

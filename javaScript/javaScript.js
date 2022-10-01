@@ -64,10 +64,14 @@ const goldBox = document.querySelector('._goldBorder');
     const box = element.querySelector('.muv');
     const cross = element.querySelector('.cross');
     
+    
  cross.addEventListener('click', () => {    
    cross.classList.toggle('active');
    box.classList.toggle('show');
-   goldBox.classList.toggle('_golBor');
+   if (element.classList.contains('_goldBorder')) {
+    console.log('hello');
+    element.classList.toggle('_golBor');
+   }    
  })
  });
 
