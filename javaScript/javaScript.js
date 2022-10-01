@@ -34,6 +34,20 @@ Array.from(goldList).forEach(card => {
     })
 });
 
+
+    /* active esc */
+    
+    window.addEventListener('keyDown', esc);
+    function esc () {
+        document.addEventListener('keydown', function(e) {
+            if (e.code === 'Escape') {                   
+            closeThanks ();
+            closeForm ();            
+            }
+            });
+            window.removeEventListener('keyDown', esc);
+    };
+
 /* open modal thanks */
 
 function openThanks () {
@@ -80,7 +94,7 @@ const goldBox = document.querySelector('._goldBorder');
  const formCross = document.querySelector('.form_cross'); 
 
  function showForm () {    
-    form.classList.add('form_show');
+    form.classList.add('form_show');    
  };
 
  /* close form */
