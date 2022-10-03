@@ -1,4 +1,9 @@
 /*font-family: 'Manrope', sans-serif;*/
+@font-face {
+    font-family: Migra;
+    src: url('../source/Font/Migra-Extrabold.otf');   
+    font-weight: 800;
+}
 * {
     box-sizing: border-box;
 }
@@ -42,6 +47,10 @@ html, body {
 
 ol, ul {
   list-style: none;
+}
+h2 {
+    font-family: Migra;
+    font-weight: 800;
 }
 
 blockquote, q {
@@ -170,6 +179,8 @@ a:hover {
 .body_list > h2 {
     margin-bottom: 10px;
     z-index: 23;
+    font-family: Migra;
+    font-weight: 800;
 }
 
 .body_list_content {

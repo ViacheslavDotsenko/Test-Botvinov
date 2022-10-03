@@ -36,8 +36,8 @@ Array.from(goldList).forEach(card => {
 
 
     /* active esc */
-    
-    window.addEventListener('keyDown', esc);
+
+    window.addEventListener('keyDown', esc());
     function esc () {
         document.addEventListener('keydown', function(e) {
             if (e.code === 'Escape') {                   
